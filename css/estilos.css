@@ -1,0 +1,22 @@
+h1 {
+    color: black;
+    background: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+
+}
+h2 {
+        color: #1b1f17;
+        background:  #17329d ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border-bottom: solid red 2px;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+    background: rgba(0, 255, 94, 0.566);
+}
+
