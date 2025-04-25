@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="..//js/calculadora.js"></script>
+    <!-- referencia Relativa a js -->
+    <script src="../js/calculadora.js"></script>
 </head>
 <body>
     <header>
@@ -21,19 +22,17 @@
         <label id="id_label_2" for="id_numero_2">Numero</label>
         <input id="id_numero_2" type="number">
  
-        <!-- los elementos que aceptan eventos tienen en su palabra on -->
-        <!-- aunque java script soporta "" o '' hay que ver la sintaxis que esta no intervenga con otros  -->
-       
-        <button onclick="cambiarColor('id_label_1','green')">Cambiar Color1</button>
-        <button onclick="cambiarColor('id_label_1','blue')">Cambiar Color2</button>
-       
-        <button onclick="agregarBoton()">Agregar Elemento</button>
- 
-        <button id="id_error">Error</button>
-        <button onclick="eliminar('id_error')">Eliminar</button>
+        <p id="id_resultado">Resultado : </p>
+   
+        <button onclick="evaluarOperacion('+')">Sumar</button>
+        <button onclick="evaluarOperacion('-')">Restar</button>
+        <button onclick="evaluarOperacion('*')">Multiplicar</button>
+        <button onclick="evaluarOperacion('/')">Dividir</button>
        
  
-         <label id="id_concatenar" for="id_label_"></label>
+        <button onclick="fundamentos()"> Fundamentos de JS</button>
+ 
+     
     </section>
     <aside>
        
@@ -43,4 +42,5 @@
     </footer>
    
 </body>
+ 
 </html>
