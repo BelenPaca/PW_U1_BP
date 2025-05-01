@@ -114,7 +114,7 @@ console.log('Fundamentos JS')
     console.log(miProfesor);
     console.log(miProfesor.nombre);
     // seteo de atributos
-    miProfesor.apellidos='Guaman';
+    miProfesor.apellidos='Perez';
 
     console.log(miProfesor);
 
@@ -337,8 +337,7 @@ function desestructuracionObjeto2(){
         anio: 2020,
         color: 'Amarillo'
     }
-    
-    
+
 }
 
 
