@@ -8,7 +8,8 @@ function validar() {
  
     if(nombre === "") {
         console.log("Error no ha ingresado el nombre")
-    }else{
+    }
+    else{
         console.log("Paso validacion del nombre")
     }
  

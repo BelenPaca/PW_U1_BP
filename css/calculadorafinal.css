@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* solo esta seccion se va a manejar como Cuadricula */
+.calculadora { 
+    display: grid; 
+    grid-template-columns: 75px 75px 75px 75px;   /*Ancho y numero de columnas*/
+    grid-template-rows: 75px 75px 75px 75px 75px 75px ; /*Tamaño y cantidad d e filas*/
+    padding: 25px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    background: #627fbe;
+    box-shadow: 15px 15px #484d91;
+
+}
+body {
+    background: #857ca8;
+
+
+}
+.display-calculadora {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #09215a;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    background: rgb(233, 214, 214);
+}
+
+button { 
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 17px;
+    border: none;
+    background: #ceb2d6;
+    font-family: digita-7;
+    font-size: 24px;
+    color: white;
+}
+.columna-2 {
+    grid-column: span 2;
+}
+
+button:active {
+    background: rgb(196, 82, 101);
+}
