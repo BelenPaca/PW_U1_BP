@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cuadricula {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    padding: 10px;
+    width: 275px;
+    height: 275px;
+    background: rgb(230, 213, 219);
+}
+
+label {
+    border: 1px solid black;
+    text-align: 5px;
+    padding: 10px;
+    margin: 10px
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+
+}
+.boton{ 
+    display: flex;
+    justify-content: center;
+}
+
+button :active {
+    background: pink;
+}
